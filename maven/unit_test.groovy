@@ -1,3 +1,5 @@
 void call(){
-  println "maven: unit_test()"
+  stage "Unittest" {
+  	println "maven: unit_test()"
+  }
 }
