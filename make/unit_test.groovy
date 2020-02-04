@@ -1,6 +1,8 @@
 void call(){
-  stage("Unittest"){
-  	println "make: unit_test()"
-	sh 'make junittest'
+  node {
+	  stage("Unittest"){
+		println "make: unit_test()"
+		sh 'make junittest'
+	  }
   }
 }
